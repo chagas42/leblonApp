@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.319" height="26.856" viewBox="0 0 18.319 26.856">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #036;
+      }
+    </style>
+  </defs>
+  <g id="lock-active" transform="translate(-7.471)">
+    <path id="Caminho_357" data-name="Caminho 357" class="cls-1" d="M22.888,10.772V6.262a6.259,6.259,0,1,0-12.517,0v4.51h-2.9V26.856H25.79V10.772ZM13.5,6.262a3.126,3.126,0,1,1,6.251,0v4.51H13.5Zm2.166,17.7L9.857,19.838l1.822-3.42,4.158,3.5,5.988-5.868L23.4,16.8Z" transform="translate(0)"/>
+  </g>
+</svg>
