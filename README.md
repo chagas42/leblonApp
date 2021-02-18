@@ -2,4 +2,4 @@
 
 Aplicativo React Native para visualização de escalas de trabalhos dos colabores do Grupo Leblon
 
-Tela de carregamento           | Tela de Login | Tela Home             |
+Load Screen            |  Log in Screen | Home Screen            |
