@@ -4,5 +4,5 @@
 
 Load Screen            |  Sing in Screen | Log in Screen            | Home Screen            |
 :-------------------------:|:-------------------------: | :-------------------------: | :-------------------------:
-<img src='screenShots/loadScreen.png' width="320"/>  |  <img src="screenShots/siginScreen.png" width="320"/> | <img src="screenShots/loginScreen.png" width="520"/> | <img src="screenShots/homeScreen.png" width="520"/>
+<img src='screenShots/loadScreen.png' width="520"/>  |  <img src="screenShots/siginScreen.png" width="520"/> | <img src="screenShots/loginScreen.png" width="520"/> | <img src="screenShots/homeScreen.png" width="520"/>
 
