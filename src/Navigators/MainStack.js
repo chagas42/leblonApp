@@ -9,7 +9,7 @@ const Stack = createStackNavigator();
 
 export default () => (
     <Stack.Navigator
-        // initialRouteName="SplashScreen"
+        initialRouteName="SplashScreen"
         screenOptions={{
             headerShown:false
         }}

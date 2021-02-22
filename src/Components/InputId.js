@@ -28,7 +28,6 @@ const InputArea = styled.View`
     align-items:center; 
     flex-direction:row;
     border-radius:10px; 
-    margin-bottom:20px;
 `; 
 
 const InputContent = styled.TextInput`

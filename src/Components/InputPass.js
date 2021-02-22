@@ -40,7 +40,7 @@ const InputArea = styled.View`
     align-items:center; 
     flex-direction:row;
     border-radius:10px; 
-    margin-bottom:5px;
+    margin-top:15px;
 `; 
 
 const InputContent = styled.TextInput`
