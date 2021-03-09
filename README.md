@@ -4,10 +4,10 @@
 
 
 <h1 align='center'>
-<img src='screenShots/loadScreen.png' width='300'/>
-<img src="screenShots/siginScreen.png" width='300'/> 
-<img src="screenShots/loginScreen.png" width='300'/>
-<img src="screenShots/homeScreen.png" width='300'/>
+<img src='screenShots/loadScreen.png' width='250'/>
+<img src="screenShots/siginScreen.png" width='250'/> 
+<img src="screenShots/loginScreen.png" width='250'/>
+<img src="screenShots/homeScreen.png" width='250'/>
 </h1>
 
 
