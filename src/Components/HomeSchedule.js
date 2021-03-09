@@ -66,6 +66,7 @@ const HomeSchedule = (props) => {
 const ScheduleContainer = styled.View`
     flex:1; 
     align-items:center;
+    padding:20px;
 `; 
 const ScheduleArea = styled.View`
     flex-direction:column; 
