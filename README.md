@@ -13,7 +13,7 @@
 
 ## 📝Sobre
 
-Aplicativo para visualização de escalas de trabalhos dos Cobradores e Motoristas do **Grupo Leblon de Transporte**
+Aplicativo para visualização de escalas de trabalhos dos Cobradores e Motoristas do [**Grupo Leblon de Transporte**](http://leblonibus.com.br/)
 
 ---
 ## 🚀 Tecnologias utilizadas:
