@@ -43,3 +43,4 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
     # Iniciar o projeto
     $ npx react-native run-android
 ```
+Desenvolvido com ❤ por [Junior Chagas](https://github.com/chagas42).
