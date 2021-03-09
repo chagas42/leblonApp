@@ -2,13 +2,12 @@
     <img src='screenShots/logo.png' width='120'/>
 </h1>
 
-
 <h1 align='center'>
-<img src='screenShots/loadScreen.png' width='220'/>
-<img src="screenShots/siginScreen.png" width='220'/> 
-<img src="screenShots/loginScreen.png" width='220'/>
-<img src="screenShots/homeScreen.png" width='220'/>
+
+ ![](https://github.com/chagas42/leblonApp/blob/main/screenShots/gif.gif)
+
 </h1>
+
 
 
 
