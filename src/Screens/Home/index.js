@@ -1,12 +1,12 @@
 import React, {useState, useEffect} from 'react'; 
-import { ContainerView, Text } from './style'
+import { ContainerView, HomeScheduleContainer } from './style'
 import HomeDaysScroll from '../../Components/HomeDaysScroll';
 import HomeSchedule from '../../Components/HomeSchedule'; 
 
 const Home = ( props ) => {
     
     const date = new Date(); 
-    const [selectedDay, setSelectedDay] = useState(date.getDay())    
+    const [selectedDay, setSelectedDay] = useState(date.getDay());  
 
     return(
         <ContainerView>                    
@@ -14,12 +14,14 @@ const Home = ( props ) => {
                 selectedDay={selectedDay}
                 setSelectedDay={setSelectedDay}
             /> 
-            <HomeSchedule
-                selectedDay={selectedDay}
-            />         
+            <HomeScheduleContainer>    
+                <HomeSchedule
+                    selectedDay={selectedDay}
+                    setSelectedDay={setSelectedDay}
+                />         
+            </HomeScheduleContainer>
         </ContainerView>
     ); 
 }; 
-
 
 export default Home; 

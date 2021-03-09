@@ -2,13 +2,13 @@ import React, { useState, useEffect, useRef } from 'react';
 import styled from 'styled-components/native'; 
 
 
-let days = [ 'Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb' ];
+const days = [ 'Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb' ];
 
 
 const HomeDaysScroll = ( props ) => {
    
 
-    const [selectedDay, setSelectedDay] = useState(props.selectedDay)
+    const [selectedDay, setSelectedDay] = useState(props.selectedDay); 
 
     useEffect(() => {
         props.setSelectedDay(selectedDay)
@@ -17,7 +17,7 @@ const HomeDaysScroll = ( props ) => {
     return (
         <WeekDaysArea>
             {days.map((d, k)=>(
-                <WeekDays key={k} underlayColor="transparent" onPress={()=>setSelectedDay(k)} style={k==selectedDay?{
+                <WeekDays key={k} underlayColor="transparent" onPress={()=>setSelectedDay(k)} style={ k == selectedDay?{
                     backgroundColor:'#ddd'
                 }:{}} >
                     <WeekDaysText style={k==selectedDay?{
@@ -38,8 +38,8 @@ const WeekDaysArea = styled.View`
     justify-content:center;
     align-items:center;
     padding-top:10px;
-    padding-bottom:5px;
-   
+    padding-bottom:5px;   
+    margin-bottom:16px;
 `;
 const WeekDays = styled.TouchableHighlight`
     flex:1;
@@ -53,7 +53,7 @@ const WeekDays = styled.TouchableHighlight`
     margin-right:5px;
 `; 
 const WeekDaysText = styled.Text`
-    font-size:15px; 
+    font-size:13px; 
     color:grey; 
 `; 
 

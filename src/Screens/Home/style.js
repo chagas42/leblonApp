@@ -12,3 +12,4 @@ export const Text = styled.Text`
     justify-content:center;
     flex:1;
 `; 
+export const HomeScheduleContainer = styled.ScrollView``; 

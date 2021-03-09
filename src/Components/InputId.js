@@ -9,7 +9,6 @@ const Input = ( props ) => {
             <IdIcon/>
             <InputContent           
                 placeholder="ID"                              keyboardType="numeric" 
-                autoFocus={false}  
                 maxLength={5}   
                 value={props.value}
                 onChangeText={props.onChangeText}

@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { ContainerView, LogoArea, ImageArea, InputArea } from './style'; 
 import { Text } from 'react-native';  
 import BusLogo from '../../Assets/images/BusStop2.svg'; 
-import LoginLogo from '../../Assets/images/loginLogo.svg'; 
+import LoginLogo from '../../Assets/images/loginLogo2.svg'; 
 // import-area:
 import InputId from '../../Components/InputId';
 import InputPass from '../../Components/InputPass'; 
@@ -22,7 +22,7 @@ const Login = ( props ) => {
             if(id == props.id && passWord == props.password){
                props.navigation.reset({
                    index:0,
-                   routes:[{name:'HomeTab'}],
+                   routes:[{name:'Drawer'}],
                });
                setError(false); 
                props.setLog(true);

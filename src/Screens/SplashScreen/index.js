@@ -5,16 +5,20 @@ import Logo from '../../Assets/images/layer11.svg';
 
 const Splash = ( props ) => {
 
-    useEffect(()=>{
-        setTimeout(()=>{
-            
-            if(props.isLogged){
-                props.navigation.navigate({"name":"HomeTab"}); 
-            } else {
-                props.navigation.navigate({"name":"Login"});
-            }
 
-        }, 150); 
+    useEffect(()=>{
+
+            if(props.isLogged){
+                props.navigation.reset({
+                    index:0, 
+                    routes:[{name:'Drawer'}],
+                }); 
+            } else {
+                props.navigation.reset({
+                    index:0, 
+                    routes:[{name:'Login'}],
+                })
+            }
     }, [])
 
     return(
