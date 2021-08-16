@@ -17,6 +17,10 @@ const Login = ( props ) => {
     const [ error, setError ] = useState(false); 
     const [ errorMessage, setErrorMessage ] = useState(''); 
     
+    console.log(props.id)
+    console.log(props.password)
+
+
     const handleLogin = () => {
        if(id != '' && passWord != ''){
             if(id == props.id && passWord == props.password){
